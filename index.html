@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="public/images/invert-logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- about -->
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="#">ABOUT</a>
+                        </li>
+                        <!-- endabout -->
+                        <!-- pages -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <div class="btn-group dropend">
+                                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Headers
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Header Style 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style 3</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style 5</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style 6</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style 7</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn-group dropend">
+                                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Footers
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Footer Style 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Footer Style 2</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                <li><a class="dropdown-item" href="#">Terms</a></li>
+                                <li><a class="dropdown-item" href="#">Typography</a></li>
+                                <li><a class="dropdown-item" href="#">404</a></li>
+                                <li><a class="dropdown-item" href="#">Documentation</a></li>
+                            </ul>
+                        </li>
+                        <!-- endpages -->
+                        <!-- instructors -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                INSTRUCTORS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Julie Collins</a></li>
+                                <li><a class="dropdown-item" href="#">Steven Ayokee</a></li>
+                                <li><a class="dropdown-item" href="#">Dominic Snyder</a></li>
+                                <li><a class="dropdown-item" href="#">Brenda Flores</a></li>
+                                <li><a class="dropdown-item" href="#">Virgil Cook</a></li>
+                            </ul>
+                        </li>
+                        <!-- endinstructors -->
+                        <!-- shedule -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SHEDULE</a>
+                        </li>
+                        <!-- endshedule -->
+                        <!-- blog -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                BLOG
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <div class="btn-group dropend">
+                                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Post Formats
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Standard</a></li>
+                                            <li><a class="dropdown-item" href="#">Nostandard</a></li>
+                                            <li><a class="dropdown-item" href="#">Image Format</a></li>
+                                            <li><a class="dropdown-item" href="#">Gallery Format</a></li>
+                                            <li><a class="dropdown-item" href="#">Quote Format</a></li>
+                                            <li><a class="dropdown-item" href="#">Link Format</a></li>
+                                            <li><a class="dropdown-item" href="#">Video Format</a></li>
+                                            <li><a class="dropdown-item" href="#">Audio Format</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn-group dropend">
+                                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Blog Layouts
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Classic</a></li>
+                                            <li><a class="dropdown-item" href="#">Grid</a></li>
+                                            <li><a class="dropdown-item" href="#">Masonry</a></li>
+                                            <li><a class="dropdown-item" href="#">Justify</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn-group dropend">
+                                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Sidebar
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Left Sidebar</a></li>
+                                            <li><a class="dropdown-item" href="#">Right Sidebar</a></li>
+                                            <li><a class="dropdown-item" href="#">No Sidebar</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- endblog -->
+                        <!-- contacts -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACTS</a>
+                        </li>
+                        <!-- endContacts -->
+                        <!-- elements -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                ELEMENTS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Static Elements</a></li>
+                                <li><a class="dropdown-item" href="#">Dynamic Elements</a></li>
+
+                            </ul>
+                        </li>
+                        <!-- endElement -->
+                        <!-- search -->
+                        <li class="nav-item">
+                            <a class="nav-link search" href="#" style="color: #09afe7"><i class="fa fa-search"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <!-- endsearch -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- carousle -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url(public/images/img1.jpg);">
+                    <div class="container">
+                        <h4>WELCOME TO THE</h4>
+                        <h1>Down the River Tours!</h1>
+                        <a href="#" class="Read">READ MORE</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url(public/images/img2.jpg);">
+
+                    <div class="container">
+                        <h1>Add adrenaline to your blood</h1>
+                        <a href="#" class="Read">READ MORE</a>
+                    </div>
+                </div>
+                <div class="carousel-item " style="background-image: url(public/images/img3.jpg);">
+                    <div class="container">
+                        <h1>The King of Watersports</h1>
+                        <a href="#" class="Read">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <!-- AboutUs -->
+        <div class="aboutUs">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <img class="img-responsive pb-5" src="public/images/img4.jpg" alt="">
+                    </div>
+                    <div class="ct1 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="h1" style="font-size: 60px; font-weight: bolder;">About us</div><br>
+                        <h3>ENJOY OUR RANGE OF ACTIVITIES!</h3>
+                        <br><br>
+                        <h4>Getting an adrenaline bump and having a great time outdoors have never been easier!</h4>
+                        <br>
+                        <h4>Enjoy either of our awesome adventures:</h4>
+                        <h4><i class="fa fa-check" aria-hidden="true"></i>
+                            Whtiewater Rafting</h4>
+                        <h4><i class="fa fa-check" aria-hidden="true"></i>
+                            Rafting</h4>
+                        <h4><i class="fa fa-check" aria-hidden="true"></i>
+                            Kayaking</h4>
+                        <h4><i class="fa fa-check" aria-hidden="true"></i>
+                            Canoeing</h4>
+                        <h4><i class="fa fa-check" aria-hidden="true"></i>
+                            Exotic Tours</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- endAboutUs -->
+        <!-- outDoor -->
+        <div class="outDoor">
+            <div class="container-lg">
+                <div class="title text-center" style="font-size: 60px; font-weight: bolder;">Outdoors Activities</div>
+                <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                    <div class="col tag"><img src="public/images/img9-418x315.jpg" alt="">
+                        <a href="#">Tours</a>
+                    </div>
+                    <div class="col tag"><img src="public/images/img8-418x315.jpg" alt="">
+                        <a href="#">Canoeing</a>
+                    </div>
+                    <div class="col tag"><img src="public/images/img7-418x315.jpg" alt="">
+                        <a href="#">Kayaking</a>
+                    </div>
+                    <div class="col tag"><img src="public/images/img6-418x315.jpg" alt="">
+                        <a href="#">Rafting</a>
+                    </div>
+                    <div class="col tag"><img src="public/images/img5-418x315.jpg" alt="">
+                        <a href="#">Whitewater</a>
+                    </div>
+                    <div class="col tag"><img src="public/images/img10-418x315.jpg" alt="">
+                        <a href="#">Repair</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- outDoor -->
+        <!-- banner -->
+        <div class="banner" style="background-image: url(public/images/img11.jpg);">
+            <div class="container">
+                <div class="row align-content-center">
+                    <div class="col cbanner text-center">
+                        <h2>FOR OUR RAFTING AND KAYAKING ROUTINES WE OFFER LOTS OF VARIOUS LOCATIONS.</h2>
+                        <p>New Rafting/Kayaking <br>
+                            Top Destinations!</p>
+                        <a href="#" class="Read">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner -->
+        <!-- pros -->
+        <div class="pros">
+            <div class="container">
+                <div class="h1 text-center pb-5" style="font-size: 60px; font-weight: bolder; color: #1b5762;">Real
+                    Rafting & Kayaking
+                    Pros!</div>
+                <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                    <div class="col">
+                        <img class="img-responsive" src="public/images/img12.jpg" alt="">
+                        <div class="text">
+                            <a href="" class="h4 pt-5">
+                                <h4 style="font-weight: bolder;">Alex Buoyega</h4>
+                            </a>
+                            <h6>INSTRUCTOR</h6>
+                            <p>Mr. Buoyega was born in one of Detroit’s poorest blocks, all before pursuing his
+                                successful managerial career in the future. For him, the…</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="public/images/img13.jpg" alt="">
+                        <div class="text">
+                            <a href="" class="h4 pt-5">
+                                <h4 style="font-weight: bolder;">Mary Applebaum</h4>
+                            </a>
+                            <h6>INSTRUCTOR</h6>
+                            <p>A Juneau, Alaska native, Mrs. Applebaum has come a long way since her high school
+                                graduation all the way up to getting a Brown…</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="public/images/img14.jpg" alt="">
+                        <div class="text">
+                            <a href="" class="h4 pt-5">
+                                <h4 style="font-weight: bolder;">Elisa Hansolo</h4>
+                            </a>
+                            <h6>INSTRUCTOR</h6>
+                            <p>Born in New York City, Elisa always felt a strong urge for being an ambitious
+                                overachiever. Eventually, by the age of 25 she already had…</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pros -->
+        <!-- blog -->
+        <div class="mcontent3">
+            <div class="container">
+                <div class="h1 text-center pb-5" style="font-size: 60px; font-weight: bolder;color: #1b5762;">Recent
+                    Blog Entries</div>
+                <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-2  ">
+                    <div class="col blog"> <a href="#"><img src="public/images/img17-652x350.jpg" alt=""></a>
+                        <div class="tag">
+                            <a href="#">Kayaking</a>
+                            <a href="#">Rafting</a>
+                        </div>
+                        <div class="noidung pt-4">
+                            <a href="#" class="title">
+                                <h3 style="font-weight: bolder;">Best Rivers for Rafting in Washington</h3>
+                            </a><br>
+                            <div class="row">
+                                <div class="col-2"> <a href="#"><img src="public/images/autor.png" alt=""></a></div>
+                                <div class="col-9 credit"> by <a href="#" class="admin">admin</a><br>
+                                    <a href="#" class="date">October 27,2016</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col blog"><a href="#"><img src="public/images/img18-652x350.jpg" alt=""></a>
+                        <div class="tag">
+                            <a href="#">Kayaking</a>
+                        </div>
+                        <div class="noidung pt-4">
+                            <a href="#" class="title">
+                                <h3 style="font-weight: bolder;">What to Wear for a Spring Kayaking</h3>
+                            </a><br>
+                            <div class="row">
+                                <div class="col-2"> <a href="#"><img src="public/images/autor.png" alt=""></a></div>
+                                <div class="col-9 credit"> by <a href="#" class="admin">admin</a><br>
+                                    <a href="#" class="date">October 19,2016</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- blog -->
+        <!-- testimonial -->
+        <div class="testimonial">
+        </div>
+        <!-- testimonial -->
+        <div class="subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col content text-center">
+                        <p>Follow Our Blog Updates and <br> Get All of Our Promos!</p>
+                        <br>
+                        <form>
+                            <input type="text" placeholder="Please enter your email" style="width: 530px;"
+                                class="input">
+                            <a href="#" class="button_submit">SUBSCRIBE</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col contact text-center">
+                    <h4>Address:6036 Richmond hwy., Alexandria, VA 2230</h4>
+                    <h4>Let`s talk <a href="#" class="number-phone">(703) 329-06-32</a></h4>
+                    <br><br>
+                    <a href="#"> <i class="fa1 fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa1 fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa1 fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa1 fa fa-youtube" aria-hidden="true"></i></a>
+                    <br><br><br>
+                    <h6>© 2019 All rights reserved by Down The River. <a href="#" class="terms">Terms</a><a href="#"
+                            class="Privacy"> Privacy</a></h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/42ac0bd688.js"></script>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
